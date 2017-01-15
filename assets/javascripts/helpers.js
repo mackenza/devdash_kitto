@@ -1,3 +1,10 @@
+export const Components = {
+  UpdatedAt: function() {
+    if (this.props.showupdated == "off") { return; }
+    <p className="updated-at">{updatedAt(this.state.updated_at)}</p>
+  }
+}
+
 export function updatedAt(value) {
   if (!value) { return; }
 

@@ -6,7 +6,9 @@
            data-source="phrases"
            data-title="Hello"
            data-text="This is your shiny new dashboard."
-           data-moreinfo="Protip: You can drag the widgets around!"></div>
+           data-moreinfo="Protip: You can drag the widgets around!"
+           data-showupdated="off">
+      </div>
     </li>
 
     <li data-row="1"
