@@ -9,7 +9,13 @@ Widget.mount(class Text extends Widget {
   status() {
     if (!this.state.status) { return ""; }    
     
-    return`status-${this.state.status}`;
+    return `status-${this.state.status}`;
+  }
+
+  showUpdated() {
+    if (!this.props.showupdated) { return ""; }
+
+    return updatedAt(this.state.updated_at);
   }
   
   render() {
